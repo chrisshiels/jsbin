@@ -6,7 +6,7 @@
 
 
 const StringWritable = function() {
-  let chunks = []
+  let chunks = [];
 
   const write = function(chunk) {
     chunks.push(chunk);
@@ -19,7 +19,7 @@ const StringWritable = function() {
   return {
     write: write,
     string: string
-  }
+  };
 }
 
 

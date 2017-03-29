@@ -32,7 +32,7 @@ const Echo = function() {
   return {
     echo: echo,
     main: main
-  }
+  };
 }
 
 
