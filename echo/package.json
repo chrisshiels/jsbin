@@ -1,0 +1,19 @@
+{
+  "name": "echo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "echo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node echo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
