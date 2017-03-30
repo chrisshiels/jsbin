@@ -26,7 +26,12 @@ const Echo = function() {
     stdout = _stdout;
     stderr = _stderr;
 
-    return echo(argv);
+    try {
+      return echo(argv);
+    } catch (e) {
+      stderr.write('cat: ' + e.message + '\n');
+      return ExitFailure;
+    }
   }
 
   return {
